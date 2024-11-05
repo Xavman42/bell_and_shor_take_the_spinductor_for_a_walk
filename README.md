@@ -15,7 +15,7 @@ I generate some other numbers inspired by Bell's inequality which we'll use late
 
 To generate a (poorly formatted) list of numbers and their prime factors (and other Bell-style test data), you'll need the three Python scripts, namely `main_data_generator.py` and its dependencies: `prime_test.py` and `shors_v2.py`.
 You'll need a few third party dependencies as well, but your IDE should tell you what you need to install. (Things like NumPy, Qiskit, and Qiskit_aer)
-Once you run main_data_generator.py, you'll have created a .csv file. If you wanted to, you could open it up in excel, but it won't look great by default.
+Once you run `main_data_generator.py`, you'll have created a `.csv` file. If you wanted to, you could open it up in excel, but it won't look great by default.
 
 **Sonification**
 
@@ -27,9 +27,9 @@ Essentially, download and unzip the file, then put it in your extension director
 
 The second extension you need is a class which handles the spinductor. 
 While there's a very good chance you don't own your own spinductor, it is pretty baked into the code at this point, and I'm not confident this SuperCollider code will run without it.
-To install the class, download Spinductor.sc and save it in the same extension directory where you put the FluCoMa folder.
+To install the class, download `Spinductor.sc` and save it in the same extension directory where you put the FluCoMa folder.
 
-With those two extensions installed, you should in principle be able to run Bell_and_Shor_Take_the_Spinductor_for_a_Walk.scd.
+With those two extensions installed, you should in principle be able to run `Bell_and_Shor_Take_the_Spinductor_for_a_Walk.scd`.
 Click somewhere after line 6, hit Ctrl/CMD+ENTER, and you should hear some sine-tones that will keep doing their thing for a day or so.
 I tried to be verbose in my comments and naming-conventions, but it's sloppy code for sure. 
 I think it's understandable, but I wouldn't use this as a reference for good coding practice in SuperCollider.
@@ -37,8 +37,8 @@ I think it's understandable, but I wouldn't use this as a reference for good cod
 **Visualization**
 
 The last piece of the puzzle is a simple visualization of some of the interval ratios generated in the piece.
-If you set ~send_OSC_to_browser = true; in line 13 of Bell_and_Shor_Take_the_Spinductor_for_a_Walk.scd, then SuperCollider will begin sending a slew of OSC messages to a local IP address.
+If you set `~send_OSC_to_browser = true;` in line 13 of `Bell_and_Shor_Take_the_Spinductor_for_a_Walk.scd`, then SuperCollider will begin sending a slew of OSC messages to a local IP address.
 This project is what I used to learn JavaScript, so I can't help much if you run into issues getting this setup.
-In principle, all you need to do to get this running is install node.js, p5.js, and any other dependencies I'm forgetting about.
-Then, navigate via console to the Bell_and_Shor folder and run node .\index.js to create a local web server.
+In principle, all you need to do to get this running is install `node.js`, `p5.js`, and any other dependencies I'm forgetting about.
+Then, navigate via console to the Bell_and_Shor folder and run `node .\index.js` to create a local web server.
 You can then access the visualizer by going to http://localhost:8081 in your browser.
