@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>osc.js Web Socket Demo</title>
+    <meta charset="UTF-8" />
+
+    <script src="/node_modules/osc/dist/osc-browser.js"></script>
+    <script src="/node_modules/p5/lib/p5.js"></script>
+</head>
+
+<body>
+
+<script src="OSCListener.js"></script>
+
+<script>
+    var OSCListener = new example.OSCListener();
+
+    window.OSCListener = OSCListener;
+</script>
+
+<script src="p5script.js"></script>
+
+<main>
+</main>
+</body>
+</html>
