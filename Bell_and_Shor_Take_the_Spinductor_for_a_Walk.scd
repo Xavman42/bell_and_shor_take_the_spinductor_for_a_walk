@@ -148,7 +148,7 @@ s.waitForBoot{
 	s.sync;
 	~synth = Synth(\tone, [nnBuf: ~ctrlBuf, outBus: 0]);
 
-	if (~send_OSC_to_browser) {~browser_address = NetAddr.new("127.0.0.1", 57121)};    // create the NetAddr
+	~browser_address = NetAddr.new("127.0.0.1", 57121);    // create the NetAddr
 
 	~spinductorD = 12;
 
