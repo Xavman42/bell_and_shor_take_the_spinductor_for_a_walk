@@ -13,7 +13,7 @@ To generate these prime numbers, what I do is count from 1 to 100,000 or so and 
 For example, the prime factors of 42 are 2, 3, and 7.
 I generate some other numbers inspired by Bell's inequality which we'll use later to control spatialization and melodic direction in the piece.
 
-To generate a (poorly formatted) list of numbers and their prime factors (and other Bell-style test data), you'll need the three Python scripts, namely main_data_generator.py and its dependencies: prime_test.py and shors_v2.py.
+To generate a (poorly formatted) list of numbers and their prime factors (and other Bell-style test data), you'll need the three Python scripts, namely `main_data_generator.py` and its dependencies: `prime_test.py` and `shors_v2.py`.
 You'll need a few third party dependencies as well, but your IDE should tell you what you need to install. (Things like NumPy, Qiskit, and Qiskit_aer)
 Once you run main_data_generator.py, you'll have created a .csv file. If you wanted to, you could open it up in excel, but it won't look great by default.
 
