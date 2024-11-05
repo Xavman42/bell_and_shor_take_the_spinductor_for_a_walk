@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "express": "^4.19.2",
+    "osc": "^2.4.4",
+    "p5": "^1.9.4"
+  }
+}
