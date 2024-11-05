@@ -1,7 +1,7 @@
 _Bell and Shor Take the Spinductor for a Walk_
 
 This is an audio-visual installation piece utilizing quantum algorithms (or at least classical approximations for now) and a new instrument called the spinductor. 
-A short video excerpt me exploring sounds in the piece is here: https://youtu.be/DJmhF-TOFrk 
+A short video excerpt of me exploring sounds in the piece is here: https://youtu.be/DJmhF-TOFrk 
 
 Without getting too much into the artistic motivations behind this piece, here's how you can get it up and running on your device...
 
